@@ -1,0 +1,12 @@
+header#main-header {
+    width: 100%;
+    background: #e41f09;
+    color: white;
+    font-size: 35px;
+    padding: 20px;
+    font-weight: bolder;
+    border-bottom: 8px solid #d62814;
+}
+header#main-header span {
+    margin-left: 20px;
+}

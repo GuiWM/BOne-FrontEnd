@@ -1,0 +1,75 @@
+.container-home {
+    display: flex;
+    flex-direction: row;
+}
+
+.add-button {
+    width: 30%;
+}
+
+.addButton {
+    height: 100px;
+}
+
+.add-button  input{
+    display: flex;
+    margin: 80px auto;
+}
+.vaccines-cards {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 70%;
+}
+article {
+    float: left;
+    background: white;
+    border-radius: 10px; /*arredondamento*/
+    padding: 30px;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.322);
+    height: 200px;
+    width: 250px;
+}
+article h2 {
+    margin-bottom: 30px;
+}
+article p {
+    margin-bottom: 5px;
+}
+
+.exitButton {
+    height: 30px;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1;
+}
+@media (max-width: 900px) {
+
+   .container-home {
+       flex-direction: column;
+   }
+   .add-button {
+       width: 100%;
+   }
+   .vaccines-cards {
+       width: 100%;
+     
+   }
+   article {
+       clear: left;
+       margin: 20px auto;
+       margin-left: 75px;
+   }
+}

@@ -1,0 +1,82 @@
+.boxForm {
+    max-width: 530px;
+    max-height: 600px;
+}
+
+.addBox {
+    width: 60%;
+    position: relative;
+}
+.imageBox {
+    width: 40%;
+}
+
+.addForm {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.legendsForm {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.legendsForm span {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 16px auto;
+}
+
+.labelsForm {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.labelsForm p {
+    margin-bottom: 10px;
+    margin: 10px auto;
+    margin-left: 20px;
+    width: 350px;
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.imageAdd {
+    margin: 200px auto;
+}
+.addAlert {
+    color: #e41f09;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+   
+    .main-container {
+        flex-direction: column;
+    }
+    .addBox {
+        width: 100%;
+    }
+    .imageAdd {
+        margin: 0px auto;
+    }
+    .legendsForm span{
+        justify-content: flex-start;
+        width: 100%;
+        display: flex;
+    }
+    .imageBox {
+        width: 100%;
+    }
+    .imageAdd {
+        display: flex;
+        justify-content: center;
+    }
+}
